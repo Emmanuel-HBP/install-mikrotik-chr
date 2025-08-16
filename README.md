@@ -1,3 +1,7 @@
+
+- [فارسی](README_FA.md)  
+- [English](README.md)
+
 # MikroTik CHR Installer Script
 
 Interactive installer for **MikroTik CHR** on Ubuntu. This script provides a fully guided installation process for deploying RouterOS CHR on a fresh Ubuntu VM or server.
