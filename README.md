@@ -16,4 +16,4 @@ The script will:
 Run this command directly on your fresh Ubuntu server:
 
 ```bash
-curl -sL https://raw.githubusercontent.com/Emmanuel-HBP/mikrotik-chr-installer/main/install_chr.sh | sudo bash
+curl -sL https://raw.githubusercontent.com/Emmanuel-HBP/install-mikrotik-chr/main/install_chr.sh | sudo bash
