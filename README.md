@@ -6,8 +6,7 @@ The script will:
 - Let you choose which RouterOS version to install (Stable, Long-term, Testing).  
 - Detect the main disk (e.g. `vda`, `sda`, `nvme`).  
 - Detect the network interface.  
-- Configure CHR with current IP and gateway.  
-- Enable SSH with `root` user (no password by default).  
+- Configure CHR with current IP and gateway.   
 
 ---
 
