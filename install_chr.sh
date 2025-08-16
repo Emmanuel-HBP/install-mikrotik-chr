@@ -5,7 +5,7 @@ set -e
 #  MikroTik CHR Installer Script
 # ===============================
 # Author: Emmanuel-HBP
-# Description: Interactive installer for MikroTik CHR on Ubuntu
+# Description: Fully interactive installer for MikroTik CHR on Ubuntu
 # ===============================
 
 # ---------- Select CHR version ----------
@@ -86,6 +86,11 @@ dd if=chr.img of="$DISK_PATH" bs=1M status=progress conv=fsync
 
 sync
 echo -e "\033[1;32mCHR installation completed successfully.\033[0m"
+
+# ---------- Inform login ----------
+echo -e "\033[1;33mLogin credentials:\033[0m"
+echo -e "\033[1;33mUsername: admin\033[0m"
+echo -e "\033[1;33mPassword: (empty / no password)\033[0m"
 
 # ---------- Reboot ----------
 echo -e "\033[1;33mRebooting in 5 seconds ...\033[0m"
