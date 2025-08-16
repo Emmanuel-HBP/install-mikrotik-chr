@@ -10,17 +10,19 @@ Interactive installer for MikroTik CHR on Ubuntu.
 - Telnet remains enabled if default
 - After installation, displays login credentials before reboot
 
+## Login Credentials
+
+After installation:
+Username: admin
+Password: (empty / no password)
+
 ## Quick Install
-⚠️ Warning: This will overwrite your system disk. Use only on a fresh VM or server.
+
+⚠️ **Warning:** This will overwrite your system disk. Use only on a **fresh VM or server**.
+
 Download and execute the installer:
 
 ```bash
 wget https://raw.githubusercontent.com/Emmanuel-HBP/install-mikrotik-chr/main/install_chr.sh
 chmod +x install_chr.sh
 sudo ./install_chr.sh
-
-## Login Credentials
-
-After installation:
-Username: admin
-Password: (empty / no password)
