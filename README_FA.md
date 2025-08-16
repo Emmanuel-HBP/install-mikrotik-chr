@@ -1,3 +1,6 @@
+[فارسی](README_FA.md) | [English](README.md)
+
+
 # اسکریپت نصب MikroTik CHR
 
 این اسکریپت نصب تعاملی برای **MikroTik CHR** روی اوبونتو است.  
