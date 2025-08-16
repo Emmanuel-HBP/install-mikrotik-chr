@@ -28,5 +28,5 @@ sudo ./install_chr.sh
 
 ## Login Credentials
 After installation:
-Username: admin
-Password: (empty / no password)
+- Username: admin
+- Password: (empty / no password)
