@@ -24,9 +24,7 @@ Download and execute the installer:
 
 ```bash
 wget https://raw.githubusercontent.com/Emmanuel-HBP/install-mikrotik-chr/main/install_chr.sh
-
-```bash
+```
 chmod +x install_chr.sh
 
-```bash
 sudo ./install_chr.sh
