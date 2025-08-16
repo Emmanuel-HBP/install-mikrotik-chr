@@ -21,3 +21,17 @@
 
 ```bash
 wget https://raw.githubusercontent.com/Emmanuel-HBP/install-mikrotik-chr/main/install_chr.sh
+```
+```bash
+chmod +x install_chr.sh
+```
+```bash
+sudo ./install_chr.sh
+```
+
+
+## طلاعات ورود
+
+بعد از نصب، با اطلاعات زیر وارد شوید:
+- **نام کاربری**: admin
+- **رمز عبور**: (خالی / بدون رمز)
