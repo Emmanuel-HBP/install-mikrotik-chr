@@ -1,18 +1,26 @@
 # MikroTik CHR Installer Script
 
-This repository contains a **bash script** to automatically install MikroTik CHR on Ubuntu.  
+Interactive installer for MikroTik CHR on Ubuntu.
 
-The script will:  
-- Let you choose which RouterOS version to install (Stable, Long-term, Testing).  
-- Detect the main disk (e.g. `vda`, `sda`, `nvme`).  
-- Detect the network interface.  
-- Configure CHR with current IP and gateway.   
+## Features
+- Fully interactive menu to choose RouterOS CHR version (Stable, Long-term, Testing)
+- Automatically detects main disk and primary network interface
+- Configures IP and Gateway automatically
+- Root user without password
+- Telnet remains enabled if default
+- After installation, displays login credentials before reboot
 
----
-
-## ⚡ Quick Install
-
-Run this command directly on your fresh Ubuntu server:
+## Quick Install
+⚠️ Warning: This will overwrite your system disk. Use only on a fresh VM or server.
+Download and execute the installer:
 
 ```bash
-curl -sL https://raw.githubusercontent.com/Emmanuel-HBP/install-mikrotik-chr/main/install_chr.sh | bash -s
+wget https://raw.githubusercontent.com/Emmanuel-HBP/install-mikrotik-chr/main/install_chr.sh
+chmod +x install_chr.sh
+sudo ./install_chr.sh
+
+## Login Credentials
+
+After installation:
+Username: admin
+Password: (empty / no password)
