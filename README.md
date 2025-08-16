@@ -49,8 +49,8 @@ A1: The script automatically detects the first disk. Installing on a system with
 **Q2: Can I change the default network configuration?**  
 A2: Yes, after installation you can manually configure interfaces and IP addresses via MikroTik CLI or Winbox.
 
-**Q3: Do I need a password for the root/admin user?**  
-A3: By default, the root/admin account has no password. You should set a password immediately after installation for security.
+**Q3: Do I need a password for the admin user?**  
+A3: By default, the admin account has no password. You should set a password immediately after installation for security.
 
 **Q4: Can I upgrade RouterOS later?**  
 A4: Yes, you can upgrade MikroTik CHR using standard RouterOS upgrade procedures without rerunning this script.
