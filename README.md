@@ -1,6 +1,4 @@
-
-- [فارسی](README_FA.md)  
-- [English](README.md)
+[English](README.md) | [فارسی](README_FA.md)
 
 # MikroTik CHR Installer Script
 
