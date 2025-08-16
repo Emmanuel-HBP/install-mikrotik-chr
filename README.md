@@ -21,7 +21,7 @@ During the installation, you will be prompted to select one of the CHR versions 
 Download and execute the installer:
 
 ```bash
-wget https://raw.githubusercontent.com/Emmanuel-HBP/install-mikrotik-chr/main/install_chr.sh
+wget https://raw.githubusercontent.com/Emmanuel-RCL/install-mikrotik-chr/main/install_chr.sh
 ```
 ```bash
 chmod +x install_chr.sh
